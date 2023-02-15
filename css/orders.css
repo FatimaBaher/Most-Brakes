@@ -1,0 +1,61 @@
+.wrapper{
+    font-size: 18px;
+    padding: 30px 60px;
+}
+th{
+    font-size: 14px;
+}
+
+table{
+    font-size: 18px;
+}
+
+#modal{
+    max-height: 70%;
+    overflow: auto;
+}
+
+/* Modal Styling */
+:root{
+    --modal-inline-padding: 22px;
+  }
+  #modal-container {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  #modal {
+    background-color: #fefefe;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 40%;
+    border-radius: 5px
+  }
+  #modal-header{
+    padding: 10px var(--modal-inline-padding);
+    border-radius: 5px 5px 0 0 ;
+    background-color: #231F20;
+    color: #ABABAB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: sans-serif
+  }
+
+  #close-button{
+    cursor: pointer;
+    font-size: 19px;
+  }
+  #close-button:hover{
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+  }

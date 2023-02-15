@@ -1,0 +1,55 @@
+.sidebar{
+    background-color: #231f20;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    padding: 30px;
+}
+
+.sidebar-icon{
+    width: 25px;
+}
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+.nav-up{
+    margin-top: 100px;
+}
+.logo::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    top: 200px;
+    background-color: white;
+}
+
+.navigation-link{
+    display:flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navigation-link>span{
+    color: #fdfdfd ;
+    cursor: pointer;
+}
+.nav-name{
+    color: #fdfdfd;
+}
+.navigation-link.active .nav-name{
+    font-weight: 800;
+    color: white;
+}
+
+.nav-bottom{
+    margin-top: auto;
+}
+
